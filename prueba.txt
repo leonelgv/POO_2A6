@@ -1,0 +1,13 @@
+La suma de 3 + 3 es igual a 6
+>>> 3 + 3
+6
+
+La suma de 12 + 14 es igual a 26
+>>> 12 + 14
+26
+
+El área del circulo con un radio de 2 es igual a 12.566370614359172
+>>> from Circul import Circulo
+>>> circulo = Circulo(2)
+>>> circulo.getArea()
+12.566370614359172

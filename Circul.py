@@ -1,5 +1,6 @@
 """
 >>> circulo = Circulo(2)
+>>> circulo.calcularArea()
 >>> circulo.getArea()
 12.566370614359172
 """
@@ -16,8 +17,6 @@ class Circulo:
             self.__radio = 0
         else:
             self.__radio = radio
-        self.calcularArea()
-        self.calcularPerimetro()
 
     def calcularArea(self):
         self.__area = math.pi * (self.__radio * self.__radio)
@@ -31,7 +30,6 @@ class Circulo:
     def getPerimetro(self):
         return self.__perimetro
 
-if __name__==  '__main__':
+if __name__ ==  '__main__':
     import doctest
     doctest.testmod()
-    doctest.testfile("test.txt")
