@@ -1,5 +1,6 @@
 from Recibo import Recibo
 from Circulo import Circulo
+from EstructurasControl import EstructurasControl
 
 recibo = Recibo(12.16, 1200, 800)
 recibo.calcularCosto()
@@ -30,3 +31,7 @@ segundo = segundo + 1
 
 print (hora, minuto, segundo)
 
+EC = EstructurasControl()
+
+a = EC.obtenerOctalNumero(7686786)
+b = EC.obtenerOctalNumero(789798)

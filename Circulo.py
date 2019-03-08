@@ -2,6 +2,9 @@
 >>> circulo = Circulo(2)
 >>> circulo.getArea()
 12.566370614359172
+
+>>> circulo.getPerimetro()
+12.566370614359172
 """
 
 import math
@@ -34,4 +37,3 @@ class Circulo:
 if __name__==  '__main__':
     import doctest
     doctest.testmod()
-    doctest.testfile("test.txt")

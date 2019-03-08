@@ -11,3 +11,6 @@ class AnioBisiesto:
 
     def calcularAnioBisiesto(self):
         return 0
+
+    def getBisiesto(self):
+        return self.__bisiesto
